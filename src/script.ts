@@ -10,7 +10,8 @@ const nomeClient = cliente.nome = 'Geovanni'
 const idadeClient = cliente.idade = 25   
 const pesoCliente = cliente.peso = 80
 const alturaCliente = cliente.altura = '1.77'
-
+ 
+console.log ('Classe Cliente');
 console.log(`Qual o nome do cliente: ${nomeClient}\n`);
 console.log(`Qual a idade do cliente: ${idadeClient}\n`);
 console.log(`Qual o peso do cliente: ${pesoCliente}\n`);

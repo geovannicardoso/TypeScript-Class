@@ -6,12 +6,14 @@ class Aviao{
     public menorIdade : boolean
 }
 const aviao = new Aviao();
+
 const pasNome = aviao.nome = 'Geovanni'
 const pasAssento = aviao.assento = '42'
 const pasIdade = aviao.idade = '25'
 const pasSexo = aviao.sexo = 'Masculino'
 const pasMenorIdade = aviao.menorIdade = false
 
+console.log('Classe Avião');
 console.log(`Qual o nome do passageiro: ${pasNome }\n`);
 console.log(`Qual a idade do passageiro: ${ pasIdade}\n`);
 console.log(`Qual o sexo do passageiro: ${pasSexo}\n`);
